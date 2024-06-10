@@ -56,7 +56,7 @@ En el caso del scraper no se debe hacer ninguna instalacion, pero para casos de 
 1. **Clonar el repositorio del Cliente**
 ```
 npm install
-npm run build
-npm run start
+npm run build // buildeara un modulo instalable, dependencia del cliente y del servidor
+npm run start -- Correra src/test.ts
 
 
