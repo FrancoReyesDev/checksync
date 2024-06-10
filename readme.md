@@ -57,6 +57,6 @@ En el caso del scraper no se debe hacer ninguna instalacion, pero para casos de 
 ```
 npm install
 npm run build // buildeara un modulo instalable, dependencia del cliente y del servidor
-npm run start -- Correra src/test.ts
+npm run start // Correra src/test.ts
 
 
