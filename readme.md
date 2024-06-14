@@ -28,7 +28,14 @@ El proyecto Checksync se divide en tres repositorios principales:
 #### Cliente
 
 1. **Clonar el repositorio del Cliente**
+2. configurar .env
+```
+SCHEMA=http
+HOST=localhost 
+PORT=3000 // si el origin no expone el puerto, simplemente dejarlo vacio
+```
 
+Luego ejecutar
 ```
 npm run build-scraper
 npm install
@@ -40,7 +47,12 @@ npm run start
 ```
 
 #### Servidor
-1. **Clonar el repositorio del Cliente**
+1. **Clonar el repositorio del Servidor**
+2. Configurar .env
+```
+PORT=3000
+```
+luego
 ```
 npm run build-scraper
 npm install
